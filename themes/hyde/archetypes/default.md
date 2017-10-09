@@ -1,6 +1,9 @@
 +++
-Description = ""
-Tags = ["Development", "golang"]
-Categories = ["Development", "GoLang"]
-menu = "main"
+title= "{{ replace .TranslationBaseName "-" " " | title }}"
+date= {{ .Date }}
+description = ""
+draft= true
 +++
+
+Lorem Ipsum.
+Notice `draft` is set to true.
